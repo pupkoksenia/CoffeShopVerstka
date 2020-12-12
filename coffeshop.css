@@ -1,0 +1,83 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+
+}
+.main .left{
+    display:inline-block;
+    height: 100%;
+    width: 50%;
+    float: left;
+    background-color: #292F32;;
+}
+.main .right{
+    display:inline-block;
+    height: 100%;
+    width: 50%;
+    float: rigth;
+    background-size:100% ;
+    opacity: 0.6;
+}
+.text{
+    float: left;
+    position: absolute;
+    width: 70%;
+    margin: 100px 15% 100px 15%;
+   
+  color: white;
+font-family: Caveat;
+z-index: 5000;
+}
+
+.text .t1{
+    font-size: 36px;
+}
+.text .t2{
+    font-size: 144px;
+}
+.text .t3{
+    font-size: 24px;
+}
+.menu {
+   /* about */
+
+position: absolute;
+
+height: 30px;
+left: 40px;
+top: 40px;
+
+font-family: Caveat;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+
+color: #D5EDF9 !important;
+}
+.menu span,.menu a,.menu a:hover, .menu a:visited{
+    color: #D5EDF9 !important;
+    display: inline-block;
+    margin-right: 10px;
+}
+.network {
+    float: right;
+    margin-top: -100px;
+}
+.network svg{
+    width: 24px;
+    float: right;
+    color: white;
+   
+    margin-right: 10px;
+    
+}
